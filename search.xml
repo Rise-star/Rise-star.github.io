@@ -25,10 +25,9 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>安装wsl,ubuntu,及配置usb,ros环境</title>
     <url>/2023/05/15/%E5%AE%89%E8%A3%85wsl,ubuntu,%E5%8F%8A%E9%85%8D%E7%BD%AEusb,ros%E7%8E%AF%E5%A2%83/</url>
-    <content><![CDATA[<p>title: 安装wsl,ubuntu,及配置usb,ros环境<br>tags: [linux,wsl,ubuntu,ros]<br>categories: [wsl]</p>
-<h1 id="安装wsl-ubuntu-及配置usb-ros环境"><a href="#安装wsl-ubuntu-及配置usb-ros环境" class="headerlink" title="安装wsl,ubuntu,及配置usb,ros环境"></a>安装wsl,ubuntu,及配置usb,ros环境</h1><p>由于要使用电脑连接can分析仪，但wsl上ubuntu不能直接连接usb设备</p>
+    <content><![CDATA[<h1 id="安装wsl-ubuntu-及配置usb-ros环境"><a href="#安装wsl-ubuntu-及配置usb-ros环境" class="headerlink" title="安装wsl,ubuntu,及配置usb,ros环境"></a>安装wsl,ubuntu,及配置usb,ros环境</h1><p>由于要使用电脑连接can分析仪，但wsl上ubuntu不能直接连接usb设备</p>
 <h2 id="安装wsl和ubuntu"><a href="#安装wsl和ubuntu" class="headerlink" title="安装wsl和ubuntu"></a>安装wsl和ubuntu</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wsl --install -d Ubuntu-18.04</span><br></pre></td></tr></table></figure>
 
 
@@ -59,12 +58,20 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 切换用户</span><br><span class="line">su root </span><br><span class="line"># 查看 sudoers文件的详情信息(参数-l)。</span><br><span class="line">ls -l /etc/sudoers</span><br><span class="line"></span><br><span class="line">-rwxrwxrwx  --可以得知文件所有者有读写执行的权限</span><br><span class="line"></span><br><span class="line">#更改sudoers文件只有`读写`权限</span><br><span class="line">chmod 440 /etc/sudoers</span><br></pre></td></tr></table></figure>
 
 ]]></content>
+      <categories>
+        <category>wsl</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>wsl</tag>
+        <tag>ubuntu</tag>
+        <tag>ros</tag>
+      </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>迁移Ubuntu</title>
     <url>/2023/05/15/%E8%BF%81%E7%A7%BBUbuntu/</url>
-    <content><![CDATA[<p>title: 迁移Ubuntu<br>tags: [Ubuntu]<br>categories: [Ubuntu]</p>
-<h1 id="迁移Ubuntu"><a href="#迁移Ubuntu" class="headerlink" title="迁移Ubuntu"></a>迁移Ubuntu</h1><p><strong>这种方法不完美，是因为会丢失所有关联的数据和软件。</strong></p>
+    <content><![CDATA[<h1 id="迁移Ubuntu"><a href="#迁移Ubuntu" class="headerlink" title="迁移Ubuntu"></a>迁移Ubuntu</h1><p><strong>这种方法不完美，是因为会丢失所有关联的数据和软件。</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wsl --unregister 已安装的WSL名称</span><br></pre></td></tr></table></figure>
 
 <h2 id="导出需要移动的-WSL"><a href="#导出需要移动的-WSL" class="headerlink" title="导出需要移动的 WSL"></a>导出需要移动的 WSL</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wsl --export 已安装的WSL名称 目标位置\自定义名称.tar</span><br></pre></td></tr></table></figure>
@@ -78,5 +85,11 @@
 
 <p>重启终端就可以继续使用了</p>
 ]]></content>
+      <categories>
+        <category>Ubuntu</category>
+      </categories>
+      <tags>
+        <tag>Ubuntu</tag>
+      </tags>
   </entry>
 </search>
