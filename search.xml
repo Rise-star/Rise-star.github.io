@@ -25,6 +25,15 @@
       </tags>
   </entry>
   <entry>
+    <title>testadmin</title>
+    <url>/2023/05/16/testadmin/</url>
+    <content><![CDATA[<p>test admin</p>
+]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>安装wsl,ubuntu,及配置usb,ros环境</title>
     <url>/2023/05/15/%E5%AE%89%E8%A3%85wsl,ubuntu,%E5%8F%8A%E9%85%8D%E7%BD%AEusb,ros%E7%8E%AF%E5%A2%83/</url>
     <content><![CDATA[<h1 id="安装wsl-ubuntu-及配置usb-ros环境"><a href="#安装wsl-ubuntu-及配置usb-ros环境" class="headerlink" title="安装wsl,ubuntu,及配置usb,ros环境"></a>安装wsl,ubuntu,及配置usb,ros环境</h1><p>由于要使用电脑连接can分析仪，但wsl上ubuntu不能直接连接usb设备</p>
