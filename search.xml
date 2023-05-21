@@ -1,132 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>在Ubuntu上播放视频</title>
-      <link href="/2023/05/17/%E5%9C%A8Ubuntu%E4%B8%8A%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91/"/>
-      <url>/2023/05/17/%E5%9C%A8Ubuntu%E4%B8%8A%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91/</url>
-      
-        <content type="html"><![CDATA[<p>在终端输入以下代码</p><p><code>sudo apt install flashplugin-installer</code></p><p><code>sudo apt install browser-plugin-freshplayer-pepperflash</code></p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/05/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
       <categories>
-          
-          <category> 技术学习 </category>
-          
+        <category>随手记</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> ubuntu </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>testadmin</title>
-      <link href="/2023/05/16/testadmin/"/>
-      <url>/2023/05/16/testadmin/</url>
-      
-        <content type="html"><![CDATA[<p>test admin</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>迁移Ubuntu</title>
-      <link href="/2023/05/15/%E8%BF%81%E7%A7%BBUbuntu/"/>
-      <url>/2023/05/15/%E8%BF%81%E7%A7%BBUbuntu/</url>
-      
-        <content type="html"><![CDATA[<h1 id="迁移Ubuntu"><a href="#迁移Ubuntu" class="headerlink" title="迁移Ubuntu"></a>迁移Ubuntu</h1><p><strong>这种方法不完美，是因为会丢失所有关联的数据和软件。</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl --unregister 已安装的WSL名称</span><br></pre></td></tr></table></figure><h2 id="导出需要移动的-WSL"><a href="#导出需要移动的-WSL" class="headerlink" title="导出需要移动的 WSL"></a>导出需要移动的 WSL</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl --export 已安装的WSL名称 目标位置\自定义名称.tar</span><br></pre></td></tr></table></figure><p>例如</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl --export Ubuntu G:\\WSL\myUbuntu.tar</span><br></pre></td></tr></table></figure><h2 id="导入-WSL-压缩包"><a href="#导入-WSL-压缩包" class="headerlink" title="导入 WSL 压缩包"></a>导入 WSL 压缩包</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">wsl --unregister 已安装的WSL名称</span><br><span class="line"></span><br><span class="line">#例如</span><br><span class="line">wsl -- unregister Ubuntu</span><br><span class="line"></span><br><span class="line">wsl --import WSL名称 安装目录 WSL压缩包文件地址</span><br><span class="line"></span><br><span class="line"># 例如</span><br><span class="line">wsl --import Ubuntu G:\\WSL G:\\WSL\myUbuntu.tar</span><br></pre></td></tr></table></figure><p>重启终端就可以继续使用了</p>]]></content>
-      
-      
+      <tags>
+        <tag>随手记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>testadmin</title>
+    <url>/2023/05/16/testadmin/</url>
+    <content><![CDATA[<p>test admin</p>
+]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装wsl,ubuntu,及配置usb,ros环境</title>
+    <url>/2023/05/15/%E5%AE%89%E8%A3%85wsl,ubuntu,%E5%8F%8A%E9%85%8D%E7%BD%AEusb,ros%E7%8E%AF%E5%A2%83/</url>
+    <content><![CDATA[<h1 id="安装wsl-ubuntu-及配置usb-ros环境"><a href="#安装wsl-ubuntu-及配置usb-ros环境" class="headerlink" title="安装wsl,ubuntu,及配置usb,ros环境"></a>安装wsl,ubuntu,及配置usb,ros环境</h1><p>由于要使用电脑连接can分析仪，但wsl上ubuntu不能直接连接usb设备</p>
+<h2 id="安装wsl和ubuntu"><a href="#安装wsl和ubuntu" class="headerlink" title="安装wsl和ubuntu"></a>安装wsl和ubuntu</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wsl --install -d Ubuntu-18.04</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="wsl和can分析仪通信"><a href="#wsl和can分析仪通信" class="headerlink" title="wsl和can分析仪通信"></a>wsl和can分析仪通信</h2><h3 id="1-运行条件："><a href="#1-运行条件：" class="headerlink" title="1.运行条件："></a>1.运行条件：</h3><p>运行 Windows 11（内部版本 22000 或更高版本）。</p>
+<p>Linux 发行版已安装并设置为 WSL 2。</p>
+<p>ubuntu18.04</p>
+<p>运行 Linux 内核 5.10.60.1 或更高版本</p>
+<h3 id="2-安装usbipd-win"><a href="#2-安装usbipd-win" class="headerlink" title="2.安装usbipd-win"></a>2.安装usbipd-win</h3><p>下载安装usbipd，<a href="https://zsxwz.com/go/?url=https://github.com/dorssel/usbipd-win/releases">https://github.com/dorssel/usbipd-win/releases</a></p>
+<p>重启一下终端就可以使用usbipd命令。</p>
+<h3 id="3-子系统安装依赖："><a href="#3-子系统安装依赖：" class="headerlink" title="3.子系统安装依赖："></a>3.子系统安装依赖：</h3><p>打开子系统(ubuntu)运行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#如果是archlinux</span><br><span class="line">pacman -S linux-tools hwdata usbip usbutils</span><br><span class="line"></span><br><span class="line">#如果是ubuntu</span><br><span class="line">apt install linux-tools-5.4.0-77-generic hwdata</span><br><span class="line">update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-tools/5.4.0-77-generic/usbip 20</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="4-查看usb设备，附加usb设备到wsl2："><a href="#4-查看usb设备，附加usb设备到wsl2：" class="headerlink" title="4.查看usb设备，附加usb设备到wsl2："></a>4.查看usb设备，附加usb设备到wsl2：</h3><p>使用powershell：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#查看usb设备</span><br><span class="line">usbipd wsl list </span><br><span class="line"></span><br><span class="line">#以管理员身份运行powershell，附加usb设备到wsl2</span><br><span class="line">usbipd wsl attach --hardware-id &quot;设备id&quot;</span><br><span class="line"></span><br><span class="line">#断开usb</span><br><span class="line">usbipd wsl detach --hardware-id &quot;设备id&quot;</span><br><span class="line"></span><br><span class="line">#查看效果</span><br><span class="line">lsusb</span><br></pre></td></tr></table></figure>
+
+<h2 id="在ubuntu上安装ros环境"><a href="#在ubuntu上安装ros环境" class="headerlink" title="在ubuntu上安装ros环境"></a>在ubuntu上安装ros环境</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget http://fishros.com/install -O fishros &amp;&amp; . fishros</span><br><span class="line"></span><br><span class="line">#配置环境（可选）</span><br><span class="line">echo &quot;source /opt/ros/melodic/setup.bash&quot; &gt;&gt; ~/.bashrc</span><br><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="运行Ubuntu一些错误"><a href="#运行Ubuntu一些错误" class="headerlink" title="运行Ubuntu一些错误"></a>运行Ubuntu一些错误</h2><p>1.检测到系统有1个ROS环境,已为你生成启动选择,修改~&#x2F;.bashrc可关闭</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">echo &quot;source /opt/ros/melodic/setup.bash&quot; &gt;&gt; ~/.bashrc</span><br><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure>
+
+<p>如果使用<a href="https://so.csdn.net/so/search?q=zsh&spm=1001.2101.3001.7020">zsh</a>终端，则把以上命令中的<code>bash</code>全部改为<code>zsh</code>。</p>
+<p>2.执行 sudo命令报&#x2F;etc&#x2F;sudoers is world writable no</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 切换用户</span><br><span class="line">su root </span><br><span class="line"># 查看 sudoers文件的详情信息(参数-l)。</span><br><span class="line">ls -l /etc/sudoers</span><br><span class="line"></span><br><span class="line">-rwxrwxrwx  --可以得知文件所有者有读写执行的权限</span><br><span class="line"></span><br><span class="line">#更改sudoers文件只有`读写`权限</span><br><span class="line">chmod 440 /etc/sudoers</span><br></pre></td></tr></table></figure>
+
+]]></content>
       <categories>
-          
-          <category> Ubuntu </category>
-          
+        <category>wsl</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Ubuntu </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>安装wsl,ubuntu,及配置usb,ros环境</title>
-      <link href="/2023/05/15/%E5%AE%89%E8%A3%85wsl,ubuntu,%E5%8F%8A%E9%85%8D%E7%BD%AEusb,ros%E7%8E%AF%E5%A2%83/"/>
-      <url>/2023/05/15/%E5%AE%89%E8%A3%85wsl,ubuntu,%E5%8F%8A%E9%85%8D%E7%BD%AEusb,ros%E7%8E%AF%E5%A2%83/</url>
-      
-        <content type="html"><![CDATA[<h1 id="安装wsl-ubuntu-及配置usb-ros环境"><a href="#安装wsl-ubuntu-及配置usb-ros环境" class="headerlink" title="安装wsl,ubuntu,及配置usb,ros环境"></a>安装wsl,ubuntu,及配置usb,ros环境</h1><p>由于要使用电脑连接can分析仪，但wsl上ubuntu不能直接连接usb设备</p><h2 id="安装wsl和ubuntu"><a href="#安装wsl和ubuntu" class="headerlink" title="安装wsl和ubuntu"></a>安装wsl和ubuntu</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl --install -d Ubuntu-18.04</span><br></pre></td></tr></table></figure><h2 id="wsl和can分析仪通信"><a href="#wsl和can分析仪通信" class="headerlink" title="wsl和can分析仪通信"></a>wsl和can分析仪通信</h2><h3 id="1-运行条件："><a href="#1-运行条件：" class="headerlink" title="1.运行条件："></a>1.运行条件：</h3><p>运行 Windows 11（内部版本 22000 或更高版本）。</p><p>Linux 发行版已安装并设置为 WSL 2。</p><p>ubuntu18.04</p><p>运行 Linux 内核 5.10.60.1 或更高版本</p><h3 id="2-安装usbipd-win"><a href="#2-安装usbipd-win" class="headerlink" title="2.安装usbipd-win"></a>2.安装usbipd-win</h3><p>下载安装usbipd，<a href="https://zsxwz.com/go/?url=https://github.com/dorssel/usbipd-win/releases">https://github.com/dorssel/usbipd-win/releases</a></p><p>重启一下终端就可以使用usbipd命令。</p><h3 id="3-子系统安装依赖："><a href="#3-子系统安装依赖：" class="headerlink" title="3.子系统安装依赖："></a>3.子系统安装依赖：</h3><p>打开子系统(ubuntu)运行：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#如果是archlinux</span><br><span class="line">pacman -S linux-tools hwdata usbip usbutils</span><br><span class="line"></span><br><span class="line">#如果是ubuntu</span><br><span class="line">apt install linux-tools-5.4.0-77-generic hwdata</span><br><span class="line">update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-tools/5.4.0-77-generic/usbip 20</span><br></pre></td></tr></table></figure><h3 id="4-查看usb设备，附加usb设备到wsl2："><a href="#4-查看usb设备，附加usb设备到wsl2：" class="headerlink" title="4.查看usb设备，附加usb设备到wsl2："></a>4.查看usb设备，附加usb设备到wsl2：</h3><p>使用powershell：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#查看usb设备</span><br><span class="line">usbipd wsl list </span><br><span class="line"></span><br><span class="line">#以管理员身份运行powershell，附加usb设备到wsl2</span><br><span class="line">usbipd wsl attach --hardware-id &quot;设备id&quot;</span><br><span class="line"></span><br><span class="line">#断开usb</span><br><span class="line">usbipd wsl detach --hardware-id &quot;设备id&quot;</span><br><span class="line"></span><br><span class="line">#查看效果</span><br><span class="line">lsusb</span><br></pre></td></tr></table></figure><h2 id="在ubuntu上安装ros环境"><a href="#在ubuntu上安装ros环境" class="headerlink" title="在ubuntu上安装ros环境"></a>在ubuntu上安装ros环境</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">wget http://fishros.com/install -O fishros &amp;&amp; . fishros</span><br><span class="line"></span><br><span class="line">#配置环境（可选）</span><br><span class="line">echo &quot;source /opt/ros/melodic/setup.bash&quot; &gt;&gt; ~/.bashrc</span><br><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure><h2 id="运行Ubuntu一些错误"><a href="#运行Ubuntu一些错误" class="headerlink" title="运行Ubuntu一些错误"></a>运行Ubuntu一些错误</h2><p>1.检测到系统有1个ROS环境,已为你生成启动选择,修改~&#x2F;.bashrc可关闭</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;source /opt/ros/melodic/setup.bash&quot; &gt;&gt; ~/.bashrc</span><br><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure><p>如果使用<a href="https://so.csdn.net/so/search?q=zsh&spm=1001.2101.3001.7020">zsh</a>终端，则把以上命令中的<code>bash</code>全部改为<code>zsh</code>。</p><p>2.执行 sudo命令报&#x2F;etc&#x2F;sudoers is world writable no</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># 切换用户</span><br><span class="line">su root </span><br><span class="line"># 查看 sudoers文件的详情信息(参数-l)。</span><br><span class="line">ls -l /etc/sudoers</span><br><span class="line"></span><br><span class="line">-rwxrwxrwx  --可以得知文件所有者有读写执行的权限</span><br><span class="line"></span><br><span class="line">#更改sudoers文件只有`读写`权限</span><br><span class="line">chmod 440 /etc/sudoers</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
+      <tags>
+        <tag>linux</tag>
+        <tag>wsl</tag>
+        <tag>ubuntu</tag>
+        <tag>ros</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在Ubuntu上播放视频</title>
+    <url>/2023/05/17/%E5%9C%A8Ubuntu%E4%B8%8A%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91/</url>
+    <content><![CDATA[<p>在终端输入以下代码</p>
+<p><code>sudo apt install flashplugin-installer</code></p>
+<p><code>sudo apt install browser-plugin-freshplayer-pepperflash</code></p>
+]]></content>
       <categories>
-          
-          <category> wsl </category>
-          
+        <category>技术学习</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> linux </tag>
-            
-            <tag> wsl </tag>
-            
-            <tag> ubuntu </tag>
-            
-            <tag> ros </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2023/05/13/hello-world/"/>
-      <url>/2023/05/13/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
+      <tags>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>迁移Ubuntu</title>
+    <url>/2023/05/15/%E8%BF%81%E7%A7%BBUbuntu/</url>
+    <content><![CDATA[<h1 id="迁移Ubuntu"><a href="#迁移Ubuntu" class="headerlink" title="迁移Ubuntu"></a>迁移Ubuntu</h1><p><strong>这种方法不完美，是因为会丢失所有关联的数据和软件。</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wsl --unregister 已安装的WSL名称</span><br></pre></td></tr></table></figure>
+
+<h2 id="导出需要移动的-WSL"><a href="#导出需要移动的-WSL" class="headerlink" title="导出需要移动的 WSL"></a>导出需要移动的 WSL</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wsl --export 已安装的WSL名称 目标位置\自定义名称.tar</span><br></pre></td></tr></table></figure>
+
+<p>例如</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wsl --export Ubuntu G:\\WSL\myUbuntu.tar</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="导入-WSL-压缩包"><a href="#导入-WSL-压缩包" class="headerlink" title="导入 WSL 压缩包"></a>导入 WSL 压缩包</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wsl --unregister 已安装的WSL名称</span><br><span class="line"></span><br><span class="line">#例如</span><br><span class="line">wsl -- unregister Ubuntu</span><br><span class="line"></span><br><span class="line">wsl --import WSL名称 安装目录 WSL压缩包文件地址</span><br><span class="line"></span><br><span class="line"># 例如</span><br><span class="line">wsl --import Ubuntu G:\\WSL G:\\WSL\myUbuntu.tar</span><br></pre></td></tr></table></figure>
+
+<p>重启终端就可以继续使用了</p>
+]]></content>
       <categories>
-          
-          <category> 随手记 </category>
-          
+        <category>Ubuntu</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 随手记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>Ubuntu</tag>
+      </tags>
+  </entry>
 </search>
