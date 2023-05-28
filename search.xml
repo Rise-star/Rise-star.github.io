@@ -1,170 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>每日成就</title>
-      <link href="/2023/05/27/%E6%AF%8F%E6%97%A5%E6%88%90%E5%B0%B1/"/>
-      <url>/2023/05/27/%E6%AF%8F%E6%97%A5%E6%88%90%E5%B0%B1/</url>
-      
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="341f9a1359e3b37d3131cc8cadd78fb55a2e1d6fccb8b7a2128c334eb2982564">e47764004bf45fe0970a38171de70cb8f603b430d56a98cf70b69bd027c011abf1200efcce6c87594c1956762a6d88cfe73df9ab1a7a731867310c484d34037a5246deb39d516f66af73df5e4a7eabe30524cef60f3243e3c6257ad3ffd48bb114320e2bf0ec0133326593cddd0d0a0f197b485b9de7124b6785e5e379ffd92ab6335066f28c6d46119bc81abcef2cb010ae81f1bb6f47cbf5c76c21c5a1942a73dcdcf48c258a687fec313e2c6434df5532dcba9c410bf7d6ece4bf198a0749815290b8e1aaee50d5d231663f062a9c6826c9520ea0bd81785f860b450a386bfeed55cd43014b6a7be1a84257a0e6a5401e31586578a5b0f02f589375fdcea4fe8cde2fae010a54d457fa686eea16a40635f32d6c914f4509f1d3f01d553e108605055c2071a422803506523278561550ea88aff1bc5b891110e91df48f1430c9cf1eb9fff62cb99cb8df756e9e31cd1bcd92ba41bc89832fda8683a8ea0802474595662bc1d45549c7733d989caf6912a823d4896149ba956a9513d75dd018e298ca6e61246b93829c461b04b639eeb17d1f247704a83ac3f3279bc86288d112a1056400cdc75768e28f9cc87d7063ca5a44fa87370cbf27739d65631cb7a8623210d1fb921a553ad6a0402f15397ca9feaaa8b9d1058f80d0a61c3c31099913702c9cebf42eb149566f12fe41653374bb0166c350e42c0c89ef60d0188a1e10a36ff1c0eeeeee759081a577f52540c22254c91973a811d1879dc3b82239ef779b68b69d22dfeb43532ae23ebd545b804e34f18fa0c7df5892a723bbc469a7d0f70d9a2c0634464171ec57155bf898b47b95145ce0dbb3b24578e4ecc41699df0d39e9afd4d2f6818fafa095116b5939b7e18b98e3e841cb9955f356f1def177d5091e97b7376d5cb5227d37ccb62740a79b27fc6c12e205446c543a430b92261c581657329dabe7ee56a43021b911383b04655af43e593e01009c3a3f3c2dc51827dd9e46f130776344317fdddad750a41ead9da51c04d385cb1b6a663990d19a7fb2ad16a4ff91d3384935cc33b4c74c54f5932b9d9e81eda422448d29eb02bdd5875a6e723bd49399db8b224404d1027430d3ee2bb17fdfb9fd5fddceac992d6a3a9c273ff4044799821862c08a36cddd7ee4ebf10b6e4ce223db0029aebfa6d9c7f00a17a8f93d0f7dfb4e3d8e14c5cdfdc3a454bf76d05ac9a69974dbbf5041b5d0f5cc4869ec196ad3a48a21f7be08ebd843b07de8d62dbb6fe7116292db744dd17df6749f3433b9ed22c777</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      
-      
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/05/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
       <categories>
-          
-          <category> 每日一就 </category>
-          
+        <category>随手记</category>
       </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>金工实习第一天</title>
-      <link href="/2023/05/22/%E9%87%91%E5%B7%A5%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
-      <url>/2023/05/22/%E9%87%91%E5%B7%A5%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%A4%A9/</url>
-      
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="60409676d9e85e62beb410ecd8756618f8c902814a4875262bc78c544b099c75">e47764004bf45fe0970a38171de70cb8381c2a7b188f7623711e0bf886943e3fef546074250416d2947cef249343fb52491687e732b172609579dd9cfb69108f86115a39f1c7e9a7f787f1e0f71f5513b863be1097884d548acd4668090032ce20bcf458c20117810b9084e2d8dd1f7857ecec544a4a88aeae1594d66655e5a21d82ebc174b400611ce44a0262c0eebfa93464e0711616af4b27de634e40d1e8d3f06540750817a84475dc89ea5cda0dc89b88f359a589b1228616b23c567ea6f14d4dc24740def8b94a93997dc33e8b2bd177189203cd086fba4398aba252cc30da87f3a061576f5e2369b65184d31f6e12135d3b9553a85a17d8ac72a3e5699c129bb4809289201cb343a71c7085e028bf07cd240c2ad1db6a792dedc93a432833b6dc8bb7317ae086b4f4c936529c87e3eab2b157431616a6b541e84e6a0e1d049e110e8a4c582329b10338605f2df9027d05afdfcb951ecac85549f0a32be583b2a80a2c179a6adc1934f5088359db44bbfb32cd6fcdc5a8139f69e519901b4444e410d8bab9067ae02fac74f074b2d561e5a552e99fc43d3a8e791e39ea341b2951af88ef51d28a82c3f9a549ce382ff444780dcb01770ddfdab40f3c78ab6ae408d458da4ab561d21cdfcccedbb0a228cee1b5d8d551310883b542ad992264b0247dc5507294944bf67cac8cf221a4252df4056fb31fad7319b8699280a0dd9134d3f05c8efa58ac908ab4f1ab411460ddd5ab6ce2883ff0daf1ab0a77c19539f4d33bd933e31b5910db796065d7a185abfa7e3a41b327c9ecfc60e54f269b50d0cc78d64c21adca1cd66f040f3396d72ad004ad15e5fda731b8063263a7adbd273de71b1399bb615739b93c785b622bf04253aeaa4456a52ad063dae61d7f2854c0306f23de59e3f505b2884e97296df3d67596997dafe8c8119a98a5a90273729e1c8c4bc08a657e39285d63b8f6b501d8c0bea373b1e5f31b7f9df4d1fae98e0d6aed8607efafe8fc386b01f5868678905459cffe429ae4fe84345033acc82a77fc3f4f5e03c2d175954a76c63c0e0574f48e4a616d0bef68de1c004e72fe4fcd8ea29577536aad064dc1fa21becd4e9a588bde01c2af81e171b2556214056c40ca269d67512ee3887a19e1a50b74ec5f1e4ebddcb66fad89fb4a62a39d375e4a0a448e0b504450c9cbcd523a4856ba50f8773ece3e3dfcd3ef8a572e7118d094ccdf3ee5241cb77b6669703aac602c44d9ab73ce05eee7fe39d96fa3ce7647a36ed27aea20a39762e4d2fb40774aefcc342904a00387ab58add9a4ab02d78b356cc1d937609c3dc88825fba7c9a0923561ed717d4edf10a6e93bb3cbcb63c7e3e5c60feaafdb80dd07488a90cb5358127bb15041ff239b39f09b11c350403b4f5a38783a9e170a6100442cbcf5fb14bffe52dd8c1bed34adc93d17f45119b5c2d4191cc74fd236ae4ecf47af5dec23c49bc1b9c8c2f0b40926942a52599b94efb092edc5ad567950b20628e7c15266fef64f217e37ce3b1df8fada6fcdaea599468d1eda498da278c8f88bcb5296f5e2f520ad53d958191df29f5de29b835066792b366b156c54f5b454436447094a066df3e348d5d8e39e44747b1d38fc29be93653dbb5bb7599ed747f6ee76d3cec3d9e014fe577c02b0eabe08a262b9dcd0b88eef59c1b89369688a5403f2551535b3ecdab591711b72e73b59eec0700e9777c43aa8491645b6801c55c16fd1e38805c2dcfd7a2f23032d5fbe9d9a58f0287fbfb46ed4188ec08420f95cc10d0df9c11fb359702d5650b2d85793f26865c379afab05b51b1011d2748ca3dc29b835a87d59b499a1ff18b8d88cb743b5362b11ac7b290f45466e40e3d51d187dea3d54f43d11e6ff6e675512e48c4665e2c0989c2a6ec273070f97d742738fe69c75d3922d730cd187c51020c3b61a23f461c8836758de601dcc98d2885563c35450fdf3fa56a4a009e7868c1fd245d3b4a09e5f83d7cd19f515cb469759f0fc626ea78ec8ee902ef9146f1bf9ac23e0fd06fd9ac3ec5e0d598009455f7e3778a20fcc2cc6b9bc655ec90a198cce67a85e1b9fa8a0486eb836b106a7b8b15470e4db739b3218261ff39dd4863885fee0f1def457a2373e05d36b4bb2961443f7ea08330b2820f8347c6b3e47c947993aeb1f9e9523503c00d97ed5b7eb005b2e49a4233c49a1f54045231eedde5ace3969687e9642149933ed2ef01ff337db6a249abaae35ba89987b1079e1b4ab61c7014d5242d1e7bc177deea6c997ee863487b6f347d77486e73faefb6b5a79e9c8f22aae047a48845066105734dadd275d734c50e1c482aca9a67754eef87dbc5c6d1126c9884dc591c6815325ce15e598e639578ce32da056ecfd50fe0775bf201451608f1a9fa7d8150ae1c92fc236f45b26adf53251fc05601e058cb8b57cbf1b335c9a04dc169a90eb552118a6ff3882bea592dc5bb91b4208d50a595b32b23cc90d796fa5d472190529fc366b665a0044f7e78def96ba378085b3468b25f5e5b440d07e4b31d1b9f1a99069ec641779b023683ba42de1b96cd07482e092d95db881f27c29c1e454d3f09664cd98f898cddb32580ebb59774a07d98a4923e2f57594c897265d76541d830156de5e4962bf1544b035e822e27906e1eee41cd2fc8df13eccec199bdd4d40ec0349c827a690a47f1ff8e130e331c0429ad2952133b08936ac911fb313f6bc2fc2d9281f9b7185f4e1e9aaf006354f204cbfef52f5334fdcaa7816b6094745a45243a016eda43678676858ff3ea4465da4c1cbfb8ce3b70267003ba31ccd22fc8683604605e451a78455b5febba7339b4d7bf9b90e5fcb1528ced6479b5e1aca83dfbc882a8ef3b28c2dcf5e7fcdde45330c6a98b8c336afbd22b3be34a8625ed1da89e12fcdb094e70b7380a258613f9d744e1bafbbf7c8b02c1cc622e852b975102913095b5f0207e47d08a5808634eec69a83cab09722402e50621b240a031df06951ea95cfe572f5fb396064b98a644eed2769d1530270a4d2322e8dfbb3a75cbcbb7073cd3f0640b9c0dbf0f8e8bb618e710a15ff49c77f27eecd4f1d079255eef90166cf05af526c588f1843bbc0695fc8b83ec58a42658ea0dc8df24259833d22bd086663448ffca025b9745566d640c76a8ede409da5f939581b5244993dbc91d8b60e73bd354839b4eb43b3b70f52622adb9d409ce85a68fc80ea5c9856edd96b94529cdac9c0ac486d42f8654f27eab7bcbab133a85c235fcc68e16889cfd269e8b8ede4b4cc0b7126eec7787045393b42e7174629d4c8aac3fd59de5d6a131635f2b5d111dda8d655bcdd89138e67aeece041a830711b19ef4ef27ab6099080ee7e0782a580128d6d7dec97421071a4dd3e9b9ca49cf89111ee52c0da69fa87371f448331eded047622fe1164aa1b65c3a6bed5f5df3a7bfa17eb52c859262e793d5e58b64e9a5243b96e9295d99df26c4930071c62378fe1f0a8c05eda07838aec5496ee5bba1493752e1f29306bbcc37652fb4646331b48ada0048f2534c566e6fcd15d8c82cc3502a12fe0aefeaedf16c9fb7a8f2ebaca9572fbbb715c8874e98845f5d85954255184e89ba9fc42ee1e02e42555ace189fb497b0e0d53bc4cc6229f7178f37632402b613fb124e91056166ec4b7ce1838d8bcd689351cb31300bcd72cda7420d3da3876d89d219ffa0c77632330f7cd043c3d3b8b1da277c6ee50dd2065452fce5c612e0773ab4ff405f55d4fe44325ece743b769802459c4c409e4d3fe24856a7f1accf29ad46fd90b4aab952e9eba4a64829ec077972b20c13834f21f3aed0958a1073341e164c70915cb643c64c300ab169c44de87ea0762b60da5b2cc552007f1acc73a4d98451609c11c6db9f4b26a68f0d7bec42e33cfa6ef445a12232c202de062cba3e8c384e13fc4c9d738cb535cccaa988c3a76d682f6a1d01db3e64dddb5496fc8d408ba3e6d66f1e15dcea2c47c4fb1498aba8297935c1e6886ed73553d3173c291c66af453f2e03eae87f56a506afe0d93542749aab71d237517977d13fa5f7da8c097ca8965949880b706baeb36b118871865ef93b6237677a2d35e93c99531efdbed00dbff98828d8b5cb8216af21bd54b1f3cde4cc0554c9e0dfed0972533c56a5523787f4590f66201a177232889ad4b870d0ec7b4476ffe434f282294e8b7f823df1ed6b956af1c6a2e98299c180156e4de9e0a2bfbc7f4dbf882e252d670143345672d5557a187c658bf646adc4af7fd4883c4837e6c7bddef08</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      
-      
+      <tags>
+        <tag>随手记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>testadmin</title>
+    <url>/2023/05/16/testadmin/</url>
+    <content><![CDATA[<p>test admin</p>
+]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在Ubuntu上播放视频</title>
+    <url>/2023/05/17/%E5%9C%A8Ubuntu%E4%B8%8A%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91/</url>
+    <content><![CDATA[<p>在终端输入以下代码</p>
+<p><code>sudo apt install flashplugin-installer</code></p>
+<p><code>sudo apt install browser-plugin-freshplayer-pepperflash</code></p>
+]]></content>
       <categories>
-          
-          <category> 生活纪实 </category>
-          
+        <category>技术学习</category>
       </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>在Ubuntu上播放视频</title>
-      <link href="/2023/05/17/%E5%9C%A8Ubuntu%E4%B8%8A%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91/"/>
-      <url>/2023/05/17/%E5%9C%A8Ubuntu%E4%B8%8A%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91/</url>
-      
-        <content type="html"><![CDATA[<p>在终端输入以下代码</p><p><code>sudo apt install flashplugin-installer</code></p><p><code>sudo apt install browser-plugin-freshplayer-pepperflash</code></p>]]></content>
-      
-      
+      <tags>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装wsl,ubuntu,及配置usb,ros环境</title>
+    <url>/2023/05/15/%E5%AE%89%E8%A3%85wsl,ubuntu,%E5%8F%8A%E9%85%8D%E7%BD%AEusb,ros%E7%8E%AF%E5%A2%83/</url>
+    <content><![CDATA[<h1 id="安装wsl-ubuntu-及配置usb-ros环境"><a href="#安装wsl-ubuntu-及配置usb-ros环境" class="headerlink" title="安装wsl,ubuntu,及配置usb,ros环境"></a>安装wsl,ubuntu,及配置usb,ros环境</h1><p>由于要使用电脑连接can分析仪，但wsl上ubuntu不能直接连接usb设备</p>
+<h2 id="安装wsl和ubuntu"><a href="#安装wsl和ubuntu" class="headerlink" title="安装wsl和ubuntu"></a>安装wsl和ubuntu</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wsl --install -d Ubuntu-18.04</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="wsl和can分析仪通信"><a href="#wsl和can分析仪通信" class="headerlink" title="wsl和can分析仪通信"></a>wsl和can分析仪通信</h2><h3 id="1-运行条件："><a href="#1-运行条件：" class="headerlink" title="1.运行条件："></a>1.运行条件：</h3><p>运行 Windows 11（内部版本 22000 或更高版本）。</p>
+<p>Linux 发行版已安装并设置为 WSL 2。</p>
+<p>ubuntu18.04</p>
+<p>运行 Linux 内核 5.10.60.1 或更高版本</p>
+<h3 id="2-安装usbipd-win"><a href="#2-安装usbipd-win" class="headerlink" title="2.安装usbipd-win"></a>2.安装usbipd-win</h3><p>下载安装usbipd，<a href="https://zsxwz.com/go/?url=https://github.com/dorssel/usbipd-win/releases">https://github.com/dorssel/usbipd-win/releases</a></p>
+<p>重启一下终端就可以使用usbipd命令。</p>
+<h3 id="3-子系统安装依赖："><a href="#3-子系统安装依赖：" class="headerlink" title="3.子系统安装依赖："></a>3.子系统安装依赖：</h3><p>打开子系统(ubuntu)运行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#如果是archlinux</span><br><span class="line">pacman -S linux-tools hwdata usbip usbutils</span><br><span class="line"></span><br><span class="line">#如果是ubuntu</span><br><span class="line">apt install linux-tools-5.4.0-77-generic hwdata</span><br><span class="line">update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-tools/5.4.0-77-generic/usbip 20</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="4-查看usb设备，附加usb设备到wsl2："><a href="#4-查看usb设备，附加usb设备到wsl2：" class="headerlink" title="4.查看usb设备，附加usb设备到wsl2："></a>4.查看usb设备，附加usb设备到wsl2：</h3><p>使用powershell：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#查看usb设备</span><br><span class="line">usbipd wsl list </span><br><span class="line"></span><br><span class="line">#以管理员身份运行powershell，附加usb设备到wsl2</span><br><span class="line">usbipd wsl attach --hardware-id &quot;设备id&quot;</span><br><span class="line"></span><br><span class="line">#断开usb</span><br><span class="line">usbipd wsl detach --hardware-id &quot;设备id&quot;</span><br><span class="line"></span><br><span class="line">#查看效果</span><br><span class="line">lsusb</span><br></pre></td></tr></table></figure>
+
+<h2 id="在ubuntu上安装ros环境"><a href="#在ubuntu上安装ros环境" class="headerlink" title="在ubuntu上安装ros环境"></a>在ubuntu上安装ros环境</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget http://fishros.com/install -O fishros &amp;&amp; . fishros</span><br><span class="line"></span><br><span class="line">#配置环境（可选）</span><br><span class="line">echo &quot;source /opt/ros/melodic/setup.bash&quot; &gt;&gt; ~/.bashrc</span><br><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="运行Ubuntu一些错误"><a href="#运行Ubuntu一些错误" class="headerlink" title="运行Ubuntu一些错误"></a>运行Ubuntu一些错误</h2><p>1.检测到系统有1个ROS环境,已为你生成启动选择,修改~&#x2F;.bashrc可关闭</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">echo &quot;source /opt/ros/melodic/setup.bash&quot; &gt;&gt; ~/.bashrc</span><br><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure>
+
+<p>如果使用<a href="https://so.csdn.net/so/search?q=zsh&spm=1001.2101.3001.7020">zsh</a>终端，则把以上命令中的<code>bash</code>全部改为<code>zsh</code>。</p>
+<p>2.执行 sudo命令报&#x2F;etc&#x2F;sudoers is world writable no</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 切换用户</span><br><span class="line">su root </span><br><span class="line"># 查看 sudoers文件的详情信息(参数-l)。</span><br><span class="line">ls -l /etc/sudoers</span><br><span class="line"></span><br><span class="line">-rwxrwxrwx  --可以得知文件所有者有读写执行的权限</span><br><span class="line"></span><br><span class="line">#更改sudoers文件只有`读写`权限</span><br><span class="line">chmod 440 /etc/sudoers</span><br></pre></td></tr></table></figure>
+
+]]></content>
       <categories>
-          
-          <category> 技术学习 </category>
-          
+        <category>wsl</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> ubuntu </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>testadmin</title>
-      <link href="/2023/05/16/testadmin/"/>
-      <url>/2023/05/16/testadmin/</url>
-      
-        <content type="html"><![CDATA[<p>test admin</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>迁移Ubuntu</title>
-      <link href="/2023/05/15/%E8%BF%81%E7%A7%BBUbuntu/"/>
-      <url>/2023/05/15/%E8%BF%81%E7%A7%BBUbuntu/</url>
-      
-        <content type="html"><![CDATA[<h1 id="迁移Ubuntu"><a href="#迁移Ubuntu" class="headerlink" title="迁移Ubuntu"></a>迁移Ubuntu</h1><p><strong>这种方法不完美，是因为会丢失所有关联的数据和软件。</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl --unregister 已安装的WSL名称</span><br></pre></td></tr></table></figure><h2 id="导出需要移动的-WSL"><a href="#导出需要移动的-WSL" class="headerlink" title="导出需要移动的 WSL"></a>导出需要移动的 WSL</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl --export 已安装的WSL名称 目标位置\自定义名称.tar</span><br></pre></td></tr></table></figure><p>例如</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl --export Ubuntu G:\\WSL\myUbuntu.tar</span><br></pre></td></tr></table></figure><h2 id="导入-WSL-压缩包"><a href="#导入-WSL-压缩包" class="headerlink" title="导入 WSL 压缩包"></a>导入 WSL 压缩包</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">wsl --unregister 已安装的WSL名称</span><br><span class="line"></span><br><span class="line">#例如</span><br><span class="line">wsl -- unregister Ubuntu</span><br><span class="line"></span><br><span class="line">wsl --import WSL名称 安装目录 WSL压缩包文件地址</span><br><span class="line"></span><br><span class="line"># 例如</span><br><span class="line">wsl --import Ubuntu G:\\WSL G:\\WSL\myUbuntu.tar</span><br></pre></td></tr></table></figure><p>重启终端就可以继续使用了</p>]]></content>
-      
-      
+      <tags>
+        <tag>ubuntu</tag>
+        <tag>linux</tag>
+        <tag>wsl</tag>
+        <tag>ros</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>每日成就</title>
+    <url>/2023/05/27/%E6%AF%8F%E6%97%A5%E6%88%90%E5%B0%B1/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="341f9a1359e3b37d3131cc8cadd78fb55a2e1d6fccb8b7a2128c334eb2982564">e47764004bf45fe0970a38171de70cb8f603b430d56a98cf70b69bd027c011abf1200efcce6c87594c1956762a6d88cfe73df9ab1a7a731867310c484d34037a5246deb39d516f66af73df5e4a7eabe30524cef60f3243e3c6257ad3ffd48bb114320e2bf0ec0133326593cddd0d0a0f197b485b9de7124b6785e5e379ffd92ab6335066f28c6d46119bc81abcef2cb010ae81f1bb6f47cbf5c76c21c5a1942a73dcdcf48c258a687fec313e2c6434df5532dcba9c410bf7d6ece4bf198a0749815290b8e1aaee50d5d231663f062a9c6826c9520ea0bd81785f860b450a386bfeed55cd43014b6a7be1a84257a0e6a5401e31586578a5b0f02f589375fdcea4fe8cde2fae010a54d457fa686eea16a40635f32d6c914f4509f1d3f01d553e108605055c2071a422803506523278561550ea88aff1bc5b891110e91df48f1430c9cf1eb9fff62cb99cb8df756e9e31cd1bcd92ba41bc89832fda8683a8ea0802474595662bc1d45549c7733d989caf6912a823d4896149ba956a9513d75dd018e298ca6e61246b93829c461b04b639eeb17d1f247704a83ac3f3279bc86288d112a1056400cdc75768e28f9cc87d7063ca5a44fa87370cbf27739d65631cb7a8623210d1fb921a553ad6a0402f15397ca9feaaa8b9d1058f80d0a61c3c31099913702c9cebf42eb149566f12fe41653374bb0166c350e42c0c89ef60d0188a1e10a36ff1c0eeeeee759081a577f52540c22254c91973a811d1879dc3b82239ef779b68b69d22dfeb43532ae23ebd545b804e34f18fa0c7df5892a723bbc469a7d0f70d9a2c0634464171ec57155bf898b47b95145ce0dbb3b24578e4ecc41699df0d39e9afd4d2f6818fafa095116b5939b7e18b98e3e841cb9955f356f1def177d5091e97b7376d5cb5227d37ccb62740a79b27fc6c12e205446c543a430b92261c581657329dabe7ee56a43021b911383b04655af43e593e01009c3a3f3c2dc51827dd9e46f130776344317fdddad750a41ead9da51c04d385cb1b6a663990d19a7fb2ad16a4ff91d3384935cc33b4c74c54f5932b9d9e81eda422448d29eb02bdd5875a6e723bd49399db8b224404d1027430d3ee2bb17fdfb9fd5fddceac992d6a3a9c273ff4044799821862c08a36cddd7ee4ebf10b6e4ce223db0029aebfa6d9c7f00a17a8f93d0f7dfb4e3d8e14c5cdfdc3a454bf76d05ac9a69974dbbf5041b5d0f5cc4869ec196ad3a48a21f7be08ebd843b07de8d62dbb6fe7116292db744dd17df6749f3433b9ed22c777</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-          
-          <category> Ubuntu </category>
-          
+        <category>每日一就</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Ubuntu </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>安装wsl,ubuntu,及配置usb,ros环境</title>
-      <link href="/2023/05/15/%E5%AE%89%E8%A3%85wsl,ubuntu,%E5%8F%8A%E9%85%8D%E7%BD%AEusb,ros%E7%8E%AF%E5%A2%83/"/>
-      <url>/2023/05/15/%E5%AE%89%E8%A3%85wsl,ubuntu,%E5%8F%8A%E9%85%8D%E7%BD%AEusb,ros%E7%8E%AF%E5%A2%83/</url>
-      
-        <content type="html"><![CDATA[<h1 id="安装wsl-ubuntu-及配置usb-ros环境"><a href="#安装wsl-ubuntu-及配置usb-ros环境" class="headerlink" title="安装wsl,ubuntu,及配置usb,ros环境"></a>安装wsl,ubuntu,及配置usb,ros环境</h1><p>由于要使用电脑连接can分析仪，但wsl上ubuntu不能直接连接usb设备</p><h2 id="安装wsl和ubuntu"><a href="#安装wsl和ubuntu" class="headerlink" title="安装wsl和ubuntu"></a>安装wsl和ubuntu</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wsl --install -d Ubuntu-18.04</span><br></pre></td></tr></table></figure><h2 id="wsl和can分析仪通信"><a href="#wsl和can分析仪通信" class="headerlink" title="wsl和can分析仪通信"></a>wsl和can分析仪通信</h2><h3 id="1-运行条件："><a href="#1-运行条件：" class="headerlink" title="1.运行条件："></a>1.运行条件：</h3><p>运行 Windows 11（内部版本 22000 或更高版本）。</p><p>Linux 发行版已安装并设置为 WSL 2。</p><p>ubuntu18.04</p><p>运行 Linux 内核 5.10.60.1 或更高版本</p><h3 id="2-安装usbipd-win"><a href="#2-安装usbipd-win" class="headerlink" title="2.安装usbipd-win"></a>2.安装usbipd-win</h3><p>下载安装usbipd，<a href="https://zsxwz.com/go/?url=https://github.com/dorssel/usbipd-win/releases">https://github.com/dorssel/usbipd-win/releases</a></p><p>重启一下终端就可以使用usbipd命令。</p><h3 id="3-子系统安装依赖："><a href="#3-子系统安装依赖：" class="headerlink" title="3.子系统安装依赖："></a>3.子系统安装依赖：</h3><p>打开子系统(ubuntu)运行：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#如果是archlinux</span><br><span class="line">pacman -S linux-tools hwdata usbip usbutils</span><br><span class="line"></span><br><span class="line">#如果是ubuntu</span><br><span class="line">apt install linux-tools-5.4.0-77-generic hwdata</span><br><span class="line">update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-tools/5.4.0-77-generic/usbip 20</span><br></pre></td></tr></table></figure><h3 id="4-查看usb设备，附加usb设备到wsl2："><a href="#4-查看usb设备，附加usb设备到wsl2：" class="headerlink" title="4.查看usb设备，附加usb设备到wsl2："></a>4.查看usb设备，附加usb设备到wsl2：</h3><p>使用powershell：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#查看usb设备</span><br><span class="line">usbipd wsl list </span><br><span class="line"></span><br><span class="line">#以管理员身份运行powershell，附加usb设备到wsl2</span><br><span class="line">usbipd wsl attach --hardware-id &quot;设备id&quot;</span><br><span class="line"></span><br><span class="line">#断开usb</span><br><span class="line">usbipd wsl detach --hardware-id &quot;设备id&quot;</span><br><span class="line"></span><br><span class="line">#查看效果</span><br><span class="line">lsusb</span><br></pre></td></tr></table></figure><h2 id="在ubuntu上安装ros环境"><a href="#在ubuntu上安装ros环境" class="headerlink" title="在ubuntu上安装ros环境"></a>在ubuntu上安装ros环境</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">wget http://fishros.com/install -O fishros &amp;&amp; . fishros</span><br><span class="line"></span><br><span class="line">#配置环境（可选）</span><br><span class="line">echo &quot;source /opt/ros/melodic/setup.bash&quot; &gt;&gt; ~/.bashrc</span><br><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure><h2 id="运行Ubuntu一些错误"><a href="#运行Ubuntu一些错误" class="headerlink" title="运行Ubuntu一些错误"></a>运行Ubuntu一些错误</h2><p>1.检测到系统有1个ROS环境,已为你生成启动选择,修改~&#x2F;.bashrc可关闭</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;source /opt/ros/melodic/setup.bash&quot; &gt;&gt; ~/.bashrc</span><br><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure><p>如果使用<a href="https://so.csdn.net/so/search?q=zsh&spm=1001.2101.3001.7020">zsh</a>终端，则把以上命令中的<code>bash</code>全部改为<code>zsh</code>。</p><p>2.执行 sudo命令报&#x2F;etc&#x2F;sudoers is world writable no</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># 切换用户</span><br><span class="line">su root </span><br><span class="line"># 查看 sudoers文件的详情信息(参数-l)。</span><br><span class="line">ls -l /etc/sudoers</span><br><span class="line"></span><br><span class="line">-rwxrwxrwx  --可以得知文件所有者有读写执行的权限</span><br><span class="line"></span><br><span class="line">#更改sudoers文件只有`读写`权限</span><br><span class="line">chmod 440 /etc/sudoers</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
+  </entry>
+  <entry>
+    <title>迁移Ubuntu</title>
+    <url>/2023/05/15/%E8%BF%81%E7%A7%BBUbuntu/</url>
+    <content><![CDATA[<h1 id="迁移Ubuntu"><a href="#迁移Ubuntu" class="headerlink" title="迁移Ubuntu"></a>迁移Ubuntu</h1><p><strong>这种方法不完美，是因为会丢失所有关联的数据和软件。</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wsl --unregister 已安装的WSL名称</span><br></pre></td></tr></table></figure>
+
+<h2 id="导出需要移动的-WSL"><a href="#导出需要移动的-WSL" class="headerlink" title="导出需要移动的 WSL"></a>导出需要移动的 WSL</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wsl --export 已安装的WSL名称 目标位置\自定义名称.tar</span><br></pre></td></tr></table></figure>
+
+<p>例如</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wsl --export Ubuntu G:\\WSL\myUbuntu.tar</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="导入-WSL-压缩包"><a href="#导入-WSL-压缩包" class="headerlink" title="导入 WSL 压缩包"></a>导入 WSL 压缩包</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wsl --unregister 已安装的WSL名称</span><br><span class="line"></span><br><span class="line">#例如</span><br><span class="line">wsl -- unregister Ubuntu</span><br><span class="line"></span><br><span class="line">wsl --import WSL名称 安装目录 WSL压缩包文件地址</span><br><span class="line"></span><br><span class="line"># 例如</span><br><span class="line">wsl --import Ubuntu G:\\WSL G:\\WSL\myUbuntu.tar</span><br></pre></td></tr></table></figure>
+
+<p>重启终端就可以继续使用了</p>
+]]></content>
       <categories>
-          
-          <category> wsl </category>
-          
+        <category>Ubuntu</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> ubuntu </tag>
-            
-            <tag> linux </tag>
-            
-            <tag> wsl </tag>
-            
-            <tag> ros </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2023/05/13/hello-world/"/>
-      <url>/2023/05/13/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
+      <tags>
+        <tag>Ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>金工实习第一天</title>
+    <url>/2023/05/22/%E9%87%91%E5%B7%A5%E5%AE%9E%E4%B9%A0%E7%AC%AC%E4%B8%80%E5%A4%A9/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="60409676d9e85e62beb410ecd8756618f8c902814a4875262bc78c544b099c75">e47764004bf45fe0970a38171de70cb8381c2a7b188f7623711e0bf886943e3fef546074250416d2947cef249343fb52491687e732b172609579dd9cfb69108f86115a39f1c7e9a7f787f1e0f71f5513b863be1097884d548acd4668090032ce20bcf458c20117810b9084e2d8dd1f7857ecec544a4a88aeae1594d66655e5a21d82ebc174b400611ce44a0262c0eebfa93464e0711616af4b27de634e40d1e8d3f06540750817a84475dc89ea5cda0dc89b88f359a589b1228616b23c567ea6f14d4dc24740def8b94a93997dc33e8b2bd177189203cd086fba4398aba252cc30da87f3a061576f5e2369b65184d31f6e12135d3b9553a85a17d8ac72a3e5699c129bb4809289201cb343a71c7085e028bf07cd240c2ad1db6a792dedc93a432833b6dc8bb7317ae086b4f4c936529c87e3eab2b157431616a6b541e84e6a0e1d049e110e8a4c582329b10338605f2df9027d05afdfcb951ecac85549f0a32be583b2a80a2c179a6adc1934f5088359db44bbfb32cd6fcdc5a8139f69e519901b4444e410d8bab9067ae02fac74f074b2d561e5a552e99fc43d3a8e791e39ea341b2951af88ef51d28a82c3f9a549ce382ff444780dcb01770ddfdab40f3c78ab6ae408d458da4ab561d21cdfcccedbb0a228cee1b5d8d551310883b542ad992264b0247dc5507294944bf67cac8cf221a4252df4056fb31fad7319b8699280a0dd9134d3f05c8efa58ac908ab4f1ab411460ddd5ab6ce2883ff0daf1ab0a77c19539f4d33bd933e31b5910db796065d7a185abfa7e3a41b327c9ecfc60e54f269b50d0cc78d64c21adca1cd66f040f3396d72ad004ad15e5fda731b8063263a7adbd273de71b1399bb615739b93c785b622bf04253aeaa4456a52ad063dae61d7f2854c0306f23de59e3f505b2884e97296df3d67596997dafe8c8119a98a5a90273729e1c8c4bc08a657e39285d63b8f6b501d8c0bea373b1e5f31b7f9df4d1fae98e0d6aed8607efafe8fc386b01f5868678905459cffe429ae4fe84345033acc82a77fc3f4f5e03c2d175954a76c63c0e0574f48e4a616d0bef68de1c004e72fe4fcd8ea29577536aad064dc1fa21becd4e9a588bde01c2af81e171b2556214056c40ca269d67512ee3887a19e1a50b74ec5f1e4ebddcb66fad89fb4a62a39d375e4a0a448e0b504450c9cbcd523a4856ba50f8773ece3e3dfcd3ef8a572e7118d094ccdf3ee5241cb77b6669703aac602c44d9ab73ce05eee7fe39d96fa3ce7647a36ed27aea20a39762e4d2fb40774aefcc342904a00387ab58add9a4ab02d78b356cc1d937609c3dc88825fba7c9a0923561ed717d4edf10a6e93bb3cbcb63c7e3e5c60feaafdb80dd07488a90cb5358127bb15041ff239b39f09b11c350403b4f5a38783a9e170a6100442cbcf5fb14bffe52dd8c1bed34adc93d17f45119b5c2d4191cc74fd236ae4ecf47af5dec23c49bc1b9c8c2f0b40926942a52599b94efb092edc5ad567950b20628e7c15266fef64f217e37ce3b1df8fada6fcdaea599468d1eda498da278c8f88bcb5296f5e2f520ad53d958191df29f5de29b835066792b366b156c54f5b454436447094a066df3e348d5d8e39e44747b1d38fc29be93653dbb5bb7599ed747f6ee76d3cec3d9e014fe577c02b0eabe08a262b9dcd0b88eef59c1b89369688a5403f2551535b3ecdab591711b72e73b59eec0700e9777c43aa8491645b6801c55c16fd1e38805c2dcfd7a2f23032d5fbe9d9a58f0287fbfb46ed4188ec08420f95cc10d0df9c11fb359702d5650b2d85793f26865c379afab05b51b1011d2748ca3dc29b835a87d59b499a1ff18b8d88cb743b5362b11ac7b290f45466e40e3d51d187dea3d54f43d11e6ff6e675512e48c4665e2c0989c2a6ec273070f97d742738fe69c75d3922d730cd187c51020c3b61a23f461c8836758de601dcc98d2885563c35450fdf3fa56a4a009e7868c1fd245d3b4a09e5f83d7cd19f515cb469759f0fc626ea78ec8ee902ef9146f1bf9ac23e0fd06fd9ac3ec5e0d598009455f7e3778a20fcc2cc6b9bc655ec90a198cce67a85e1b9fa8a0486eb836b106a7b8b15470e4db739b3218261ff39dd4863885fee0f1def457a2373e05d36b4bb2961443f7ea08330b2820f8347c6b3e47c947993aeb1f9e9523503c00d97ed5b7eb005b2e49a4233c49a1f54045231eedde5ace3969687e9642149933ed2ef01ff337db6a249abaae35ba89987b1079e1b4ab61c7014d5242d1e7bc177deea6c997ee863487b6f347d77486e73faefb6b5a79e9c8f22aae047a48845066105734dadd275d734c50e1c482aca9a67754eef87dbc5c6d1126c9884dc591c6815325ce15e598e639578ce32da056ecfd50fe0775bf201451608f1a9fa7d8150ae1c92fc236f45b26adf53251fc05601e058cb8b57cbf1b335c9a04dc169a90eb552118a6ff3882bea592dc5bb91b4208d50a595b32b23cc90d796fa5d472190529fc366b665a0044f7e78def96ba378085b3468b25f5e5b440d07e4b31d1b9f1a99069ec641779b023683ba42de1b96cd07482e092d95db881f27c29c1e454d3f09664cd98f898cddb32580ebb59774a07d98a4923e2f57594c897265d76541d830156de5e4962bf1544b035e822e27906e1eee41cd2fc8df13eccec199bdd4d40ec0349c827a690a47f1ff8e130e331c0429ad2952133b08936ac911fb313f6bc2fc2d9281f9b7185f4e1e9aaf006354f204cbfef52f5334fdcaa7816b6094745a45243a016eda43678676858ff3ea4465da4c1cbfb8ce3b70267003ba31ccd22fc8683604605e451a78455b5febba7339b4d7bf9b90e5fcb1528ced6479b5e1aca83dfbc882a8ef3b28c2dcf5e7fcdde45330c6a98b8c336afbd22b3be34a8625ed1da89e12fcdb094e70b7380a258613f9d744e1bafbbf7c8b02c1cc622e852b975102913095b5f0207e47d08a5808634eec69a83cab09722402e50621b240a031df06951ea95cfe572f5fb396064b98a644eed2769d1530270a4d2322e8dfbb3a75cbcbb7073cd3f0640b9c0dbf0f8e8bb618e710a15ff49c77f27eecd4f1d079255eef90166cf05af526c588f1843bbc0695fc8b83ec58a42658ea0dc8df24259833d22bd086663448ffca025b9745566d640c76a8ede409da5f939581b5244993dbc91d8b60e73bd354839b4eb43b3b70f52622adb9d409ce85a68fc80ea5c9856edd96b94529cdac9c0ac486d42f8654f27eab7bcbab133a85c235fcc68e16889cfd269e8b8ede4b4cc0b7126eec7787045393b42e7174629d4c8aac3fd59de5d6a131635f2b5d111dda8d655bcdd89138e67aeece041a830711b19ef4ef27ab6099080ee7e0782a580128d6d7dec97421071a4dd3e9b9ca49cf89111ee52c0da69fa87371f448331eded047622fe1164aa1b65c3a6bed5f5df3a7bfa17eb52c859262e793d5e58b64e9a5243b96e9295d99df26c4930071c62378fe1f0a8c05eda07838aec5496ee5bba1493752e1f29306bbcc37652fb4646331b48ada0048f2534c566e6fcd15d8c82cc3502a12fe0aefeaedf16c9fb7a8f2ebaca9572fbbb715c8874e98845f5d85954255184e89ba9fc42ee1e02e42555ace189fb497b0e0d53bc4cc6229f7178f37632402b613fb124e91056166ec4b7ce1838d8bcd689351cb31300bcd72cda7420d3da3876d89d219ffa0c77632330f7cd043c3d3b8b1da277c6ee50dd2065452fce5c612e0773ab4ff405f55d4fe44325ece743b769802459c4c409e4d3fe24856a7f1accf29ad46fd90b4aab952e9eba4a64829ec077972b20c13834f21f3aed0958a1073341e164c70915cb643c64c300ab169c44de87ea0762b60da5b2cc552007f1acc73a4d98451609c11c6db9f4b26a68f0d7bec42e33cfa6ef445a12232c202de062cba3e8c384e13fc4c9d738cb535cccaa988c3a76d682f6a1d01db3e64dddb5496fc8d408ba3e6d66f1e15dcea2c47c4fb1498aba8297935c1e6886ed73553d3173c291c66af453f2e03eae87f56a506afe0d93542749aab71d237517977d13fa5f7da8c097ca8965949880b706baeb36b118871865ef93b6237677a2d35e93c99531efdbed00dbff98828d8b5cb8216af21bd54b1f3cde4cc0554c9e0dfed0972533c56a5523787f4590f66201a177232889ad4b870d0ec7b4476ffe434f282294e8b7f823df1ed6b956af1c6a2e98299c180156e4de9e0a2bfbc7f4dbf882e252d670143345672d5557a187c658bf646adc4af7fd4883c4837e6c7bddef08</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-          
-          <category> 随手记 </category>
-          
+        <category>生活纪实</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 随手记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+  </entry>
 </search>
